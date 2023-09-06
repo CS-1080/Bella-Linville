@@ -25,7 +25,7 @@
             <figcaption>This is a photo of my on a girls trip with my mom in Savannah, Georgia </figcaption>
 
         </figure>
-        <h1><strong>CS 1080 Lab 1</strong>Fall 2023, Section A</h1>
+        <h1><strong>CS 1080</strong> Fall 2023, Section A</h1>
         <h2><em>Bella Linville-Site Map</em>
         <p><a href="ADMIN/code-viewer.php"> My Admin Page</a></p> 
 
@@ -50,6 +50,23 @@
 </section>
  <!--     ###########################################  -->
 </body>
+<section class-="lab-layout">
+    <h2> class="header">Lab Two - Choosing your topic.</h2>
+    <section class="public-files">
+        <h3>Public Files</h3>
+        <p><a href="lab2/index.php">Home Page</a></p>
+</section>
+
+<section class="supporting-files">
+    <h3>Supporting files</h3>
+    <p></p>
+</section>
+
+<section class="grader-notes">
+    <h3>Notes to grader</h3>
+    <p></p>
+</section>
+</section>
 
 </html>
 
