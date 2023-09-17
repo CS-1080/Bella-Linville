@@ -51,10 +51,10 @@
  <!--     ###########################################  -->
 </body>
 <section class-="lab-layout">
-    <h2> class="header">Lab Two - Choosing your topic.</h2>
+    <h2 class="header">Lab Two - Choosing your topic.</h2>
     <section class="public-files">
         <h3>Public Files</h3>
-        <p><a href="lab2/index.php">Home Page</a></p>
+        <p><a href="lab2">Home Page</a></p>
 </section>
 
 <section class="supporting-files">
@@ -67,7 +67,28 @@
     <p></p>
 </section>
 </section>
+<section class="lab-layout">
+    <h2 class="header">Lab Three - Creating a website. </h2>
+    <section class="public-files">
+        <h3>Public Files</h3>
+        <p><a href="lab3/about.php">About page</a></p>
+        <p><a href="lab3/detail.php">Detail page</a></p>
+        <p><a href="lab3/form.php">Form page</a></p>
+        <p><a href="lab3/index.php">Home page</a></p>
+</section>
 
+<section class="supporting-files">
+    <h3>Supporting files</h3>
+    <p><a href="lab3/css/custom.css">css style sheet</a></p>
+    <p><a href="lab3/wireframe.png">Wireframe</a></p>
+
+</section>
+
+<section class="grader-notes">
+    <h3>Notes to grader</h3>
+    <p></p>
+</section>
+</section>
 </html>
 
 
