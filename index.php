@@ -6,6 +6,7 @@
     <title>CS1080 Labs: Bella Linville</title>
     <meta name="author" content= "Bella Linville">
     <meta name="description" content= "A portfolio of all of my hard work in CS1080, my introduction to coding and the WWW">
+    <link rel="stylesheet" href="css/custom.css?version=?php print time(); ?>" type="text/css">
 <style>
     figure {
         float: right;
@@ -21,12 +22,16 @@
     <!--this is my comment woohooooooo yayyyyyyy-->
 
     <body>
+        <header>
+        <h1>Alternative Options to Lawns That Require Mowing: the Future of Front Yards</h1>
+</header>
+<nav> 
+    <a href="index.php">Home</a>
         <figure>
         <img alt="Example of a no mow lawn alternative!" src="images/no-mow-lawn.png">
         <figcaption>This is a great example of a no mow lawn alternative. Instead of installing turf or nonnative grass species, planting native shrubs provides habitats local fauna and provides erosion control!</figcaption>
 </figure>
 <main>
-    <h1>Alternative Options to Lawns That Require Mowing: the Future of Front Yards</h1>
     <section>
         <h2>The Danger of Traditional Lawns</h2>
         <p>You see them everywhere sprawled throughout suburbs. Dads proudly mow them every week, their pride and joy. Lawns full of green grass may look tidy and neat, but what if I told you
