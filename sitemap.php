@@ -88,7 +88,18 @@
     <h3>Notes to grader</h3>
     <p></p>
 </section>
+<section class="lab-layout">
+    <h2 class="header">Lab Four - Styling your site. </h2>
+    <section class="public-files">
+        <h3>Public Files</h3>
+        <p><a href="lab4/about.php">About page</a></p>
+        <p><a href="lab4/detail.php">Detail page</a></p>
+        <p><a href="lab4/form.php">Form page</a></p>
+        <p><a href="lab4/index.php">Home page</a></p>
 </section>
+</section>
+<footer>
+    <p.<a href="../sitemap.php">Sitemap</a></p>
 </html>
 
 
