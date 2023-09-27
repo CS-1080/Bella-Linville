@@ -7,17 +7,6 @@
     <meta name="author" content= "Bella Linville">
     <meta name="description" content= "A portfolio of all of my hard work in CS1080, my introduction to coding and the WWW">
     <link rel="stylesheet" href="css/custom.css?version=?php print time(); ?>" type="text/css">
-<style>
-    figure {
-        float: right;
-        text align: right;
-        width: 50%;
-    }
-
-    img {
-        max-width: 100%;
-    }
-    </style>
     </head>
     <!--this is my comment woohooooooo yayyyyyyy-->
 
@@ -31,8 +20,8 @@
     <a href="form.php">Form</a>
 </nav>
         <figure>
-        <img alt="Example of a no mow lawn alternative!" src="images/no-mow-lawn.png">
-        <figcaption>This is a great example of a no mow lawn alternative. Instead of installing turf or nonnative grass species, planting native shrubs provides habitats local fauna and provides erosion control!</figcaption>
+        <img alt="A traditional lawn" src="images/ickylawn.png">
+        <figcaption>A photo of a traditional lawn, which wastes resources, contaminates groundwater and local bodies of water, and depletes local biodiversity.</figcaption>
 </figure>
 <main>
     <section>

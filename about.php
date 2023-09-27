@@ -7,17 +7,6 @@
     <meta name="author" content= "Bella Linville">
     <meta name="description" content= "A portfolio of all of my hard work in CS1080, my introduction to coding and the WWW">
     <link rel="stylesheet" href="css/custom.css?version=?php print time(); ?>" type="text/css">
-<style>
-    figure {
-        float: right;
-        text align: right;
-        width: 50%;
-    }
-
-    img {
-        max-width: 100%;
-    }
-    </style>
     </head>
     <!--this is my comment woohooooooo yayyyyyyy-->
 
@@ -31,7 +20,7 @@
     <a href="form.php">Form</a>
 </nav>
         <figure>
-        <img alt="Moss Lawn" src="mosslawn.png">
+        <img alt="Moss Lawn" src="images/mosslawn.png">
         <figcaption>This is a moss lawn, the first alternative touched on in this page.</figcaption>
 </figure>
 <main>

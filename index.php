@@ -7,17 +7,6 @@
     <meta name="author" content= "Bella Linville">
     <meta name="description" content= "A portfolio of all of my hard work in CS1080, my introduction to coding and the WWW">
     <link rel="stylesheet" href="css/custom.css?version=?php print time(); ?>" type="text/css">
-<style>
-    figure {
-        float: right;
-        text align: right;
-        width: 50%;
-    }
-
-    img {
-        max-width: 100%;
-    }
-    </style>
     </head>
     <!--this is my comment woohooooooo yayyyyyyy-->
 
@@ -27,6 +16,9 @@
 </header>
 <nav> 
     <a href="index.php">Home</a>
+    <a href="detail.php">Detail</a>
+    <a href="form.php">Form</a>
+</nav>
         <figure>
         <img alt="Example of a no mow lawn alternative!" src="images/no-mow-lawn.png">
         <figcaption>This is a great example of a no mow lawn alternative. Instead of installing turf or nonnative grass species, planting native shrubs provides habitats local fauna and provides erosion control!</figcaption>
@@ -94,6 +86,11 @@
 </ul>
 <p>Overall, there are many ecofriendly and aesthetic alternatives to boring, unsustainable lawns. This webpage only touches on a few of the many great options!</p>
 </section>
+</main>
+<footer>
+    <p></a href="../index.php">Site map (Main Index)</a></p>
+</footer>
+</main>
 </html>
 
 
