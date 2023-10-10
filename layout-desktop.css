@@ -1,0 +1,31 @@
+.nav{
+    display:flex;
+}
+.navitems{
+    flex-grow:1;
+    background-color:rgb(0,194,162);
+    text-align:center;
+}
+#container{
+    display: flex;
+    border:thin, black;
+}
+#container > div{
+    padding:5%;
+}
+.flex-table {
+    display: flex;
+    flex-direction: column; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+th, td {
+    border: 1px solid #ccc; 
+    padding: 5px; 
+}
+
+
