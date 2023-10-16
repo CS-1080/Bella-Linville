@@ -6,7 +6,12 @@
     <title>CS1080 Labs: Bella Linville</title>
     <meta name="author" content= "Bella Linville">
     <meta name="description" content= "A portfolio of all of my hard work in CS1080, my introduction to coding and the WWW">
-    <link rel="stylesheet" href="css/custom.css?version=?php print time(); ?>" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/custom.css?version=<?php print time(); ?>"type="text/css">
+    <link rel="advancedstylesheet" href="css/layout-desktop.css?version=<?php print time(); ?>" type="text/css">
+    <link href="css/layout-desktop.css?version=<?php print time (); ?>" rel="stylesheet" type="text/css">
+    <link href="css/layout-tablet.css?version=<?php print time (); ?>" media="(max-width: 820px)" rel="stylesheet" text="text/css">
+    <link href="css/layout-phone.css?version=<?php print time (); ?>" media="(max-width: 430px)" rel="stylesheet" type="text/css">
     </head>
     <!--this is my comment woohooooooo yayyyyyyy-->
 
@@ -14,28 +19,33 @@
         <header>
         <h1>Alternative Options to Lawns That Require Mowing: the Future of Front Yards</h1>
 </header>
-<nav> 
-    <a href="index.php">Home</a>
-    <a href="detail.php">Detail</a>
-    <a href="form.php">Form</a>
+<nav class="nav"> 
+    <a class="navitems" href="index.php">Home</a>
+    <a class="navitems" href="detail.php">Detail</a>
+    <a class="navitems" href="form.php">Form</a>
+    <a class="navitems" href="about.php">About</a>
 </nav>
         <figure>
-        <img alt="Example of a no mow lawn alternative!" src="images/no-mow-lawn.png">
-        <figcaption>This is a great example of a no mow lawn alternative. Instead of installing turf or nonnative grass species, planting native shrubs provides habitats local fauna and provides erosion control!</figcaption>
+        <img class="rounded" alt="Example of a no mow lawn alternative!" src="images/no-mow-lawn.png">
+        <figcaption> Instead of installing turf or nonnative grass species, planting native shrubs provides habitats local fauna and provides erosion control!</figcaption>
 </figure>
 <main>
+    <div id="container">
+        <div>
     <section>
         <h2>The Danger of Traditional Lawns</h2>
-        <p>You see them everywhere sprawled throughout suburbs. Dads proudly mow them every week, their pride and joy. Lawns full of green grass may look tidy and neat, but what if I told you
+        <p class="border">You see them everywhere sprawled throughout suburbs. Dads proudly mow them every week, their pride and joy. Lawns full of green grass may look tidy and neat, but what if I told you
             they weren't so green? While upkept lawns have become a staple of suburban America, they may be harming local ecosystems. Their upkeep comes with a high carbon cost, and burns holes in the pockets of homeowners. 
             Maintaining a lawn requires an unsustainable amount of water, a resource many of which don't even have readily available access to. 
             The fertilizers, pesticides, and weedkillers needed to upkeep a respectable lawn can have dire indirect effects on surrounding ecosystems such as eutrification, chemical contamination, and unintentional herbicide or pesticide. 
             Furthermore, traditional lawns diminish local biodiversity. Lawns effectively displace local fuana by destroying their habitats. Overall this decreases the stability of local ecosystems, as biodiversity is a key factorn to the resilience and wellbeing of environs.</p>
 </section>
+</div>
+</div>
 <section>
     <h2>Statistics on the Impact of Grass Lawns</h2>
-    <p>The metrics of this data are reffering to a standard sized lawn, which is roughly 500 square feet!</p>
-    <table>
+    <p class="paragraph">The metrics of this data are reffering to a standard sized lawn, which is roughly 500 square feet!</p>
+    <table class="table">
         <caption>Negative Effects of Grass Lawns</caption>
         <tr>
             <th>Effects</th>
@@ -58,16 +68,16 @@
     <td>Acres</td>
 </tr>
 <tr>
-    <td colspan="3"><a href="https://megagrass.com/pages/water-waste#">Sources</a></td>
+    <td colspan="3"><a class="link" href="https://megagrass.com/pages/water-waste#">Sources</a></td>
 </tr>
 </table>
 </section>
 
 <section>
     <h2>Alternatives to Grass Lawns</h2>
-    <p>Dont fret! Grass lawns are not your only option for having an aesthetic lawn. There are many diiferent options that involve native shrubery, trees, rocks, and more!!</p>
+    <p><strong>Dont fret!</strong> Grass lawns are not your only option for having an aesthetic lawn. There are many diiferent options that involve native shrubery, trees, rocks, and more!!</p>
     <h3>Some alternatives are:</h3>
-    <ul>
+    <ol>
         <li>Moss Lawns
             <ul>
                 <li>Moss lawns are extremely resilient to drought, disease, and pests. There's a vast amount of moss varieties to chose from, and they're all low matienence! That's right, no more mowing! However, mosses love shade, so if you have a sunny lawn this many not be the option for you.</li>
@@ -83,9 +93,10 @@
         <li>Flower beds and shrub beds are a beautiful choice for lawn alternatives. This style lawn provides ample habitats for pollinators, as well as provides erosion control due to the deep string root systems of shrubs. If you live somewhere that's prone to droughts, succulents may be a better option than flowers. This option is a bit more expensive than the previous alternative lawns, but if you have the resources for it makes for a beautiful ecofriendly lawn.</li>
 </ul>
 </li>
-</ul>
+</ol>
 <p>Overall, there are many ecofriendly and aesthetic alternatives to boring, unsustainable lawns. This webpage only touches on a few of the many great options!</p>
 </section>
+</div>
 </main>
 <footer>
     <p></a href="../index.php">Site map (Main Index)</a></p>
