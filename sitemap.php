@@ -6,17 +6,6 @@
     <title>CS 1080 LABS </title>
     <meta name="author" content= "Bella Linville">
     <meta name="description" content= "A folder of my labs from CS1080, a great introduction to the design of the World Wide Web">
-<style>
-    figure {
-        float: right;
-        text-align: left;
-        width: 30%;
-    }
-
-    img {
-        max-width:100%;
-    }
-    </style>
     </head>
 
     <body>
@@ -66,6 +55,24 @@
     <h3>Notes to grader</h3>
     <p></p>
 </section>
+<section class="lab-layout">
+    <h2 class="header">Lab Six- Responsive Design. </h2>
+    <section class="public-files">
+        <h3>Public Files</h3>
+        <p><a href="lab6/about.php">About page</a></p>
+        <p><a href="lab6/detail.php">Detail page</a></p>
+        <p><a href="lab6/form.php">Form page</a></p>
+        <p><a href="lab6/index.php">Home page</a></p>
+</section>
+</section>
+<section class="lab-layout">
+    <h2 class="header">Lab Five - Advanced CSS. </h2>
+    <section class="public-files">
+        <h3>Public Files</h3>
+        <p><a href="lab5/about.php">About page</a></p>
+        <p><a href="lab5/detail.php">Detail page</a></p>
+        <p><a href="lab5/form.php">Form page</a></p>
+        <p><a href="lab5/index.php">Home page</a></p>
 </section>
 <section class="lab-layout">
     <h2 class="header">Lab Three - Creating a website. </h2>
@@ -99,7 +106,7 @@
 </section>
 </section>
 <footer>
-    <p.<a href="../sitemap.php">Sitemap</a></p>
+    <p.<a href="/sitemap.php">Sitemap</a></p>
 </html>
 
 
