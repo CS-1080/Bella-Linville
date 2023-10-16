@@ -1,0 +1,19 @@
+@media (max-width:820px)
+{
+    body{
+        width:80%;
+        margin:0 auto;
+    }
+    .submit{
+        padding: 15px 25px;
+        border-radius: 5px;
+    }
+    a{
+        padding: 10px;
+        display:block;
+    }
+    img{
+        max-width: 75%;
+    }
+}
+
