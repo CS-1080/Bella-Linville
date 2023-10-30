@@ -1,30 +1,6 @@
-<!DOCTYPE HTML>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <title>CS1080 Labs: Bella Linville</title>
-    <meta name="author" content= "Bella Linville">
-    <meta name="description" content= "A portfolio of all of my hard work in CS1080, my introduction to coding and the WWW">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/custom.css?version=<?php print time(); ?>" type="text/css">
-    <link rel="advancedstylesheet" href="css/layout-desktop.css?version=<?php print time(); ?>" type="text/css">
-    <link href="css/layout-desktop.css?version=<?php print time (); ?>" rel="stylesheet" type="text/css">
-    <link href="css/layout-tablet.css?version=<?php print time (); ?>" media="(max-width: 820px)" rel="stylesheet" text="text/css">
-    <link href="css/layout-phone.css?version=<?php print time (); ?>" media="(max-width: 430px)" rel="stylesheet" type="text/css">
-    </head>
-    <!--this is my comment woohooooooo yayyyyyyy-->
-
-    <body>
-        <header>
-        <h1>What Impact Switching Your Lawn Can Have on Your Local Ecosystem</h1>
-</header>
-<nav class="nav"> 
-    <a class="navitems" href="index.php">Home</a>
-    <a class="navitems" href="detail.php">Detail</a>
-    <a class="navitems" href="form.php">Form</a>
-    <a class="navitems" href="about.php">About</a>
-</nav>
+<?php
+include 'top.php';
+?>
 <div id="container">
         <figure>
         <img class="rounded" alt="A traditional lawn" src="images/ickylawn.png">
@@ -60,10 +36,10 @@
 </div>
 </div>
 </main>
-<footer>
-    <p></a href="../index.php">Site map (Main Index)</a></p>
-</footer>
 </main>
+<?php
+include 'footer.php';
+?>
 </html>
 
 
