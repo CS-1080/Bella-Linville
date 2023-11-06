@@ -39,6 +39,58 @@
 </section>
  <!--     ###########################################  -->
 </body>
+<section class="lab-layout">
+    <h2 class="header">Lab 8- Database to display data. </h2>
+    <section class="public-files">
+        <h3>Public Files</h3>
+        <p><a href="lab8/about.php">About page</a></p>
+        <p><a href="lab8/array.php">Array Page</a></p>
+        <p><a href="lab8/detail.php">Detail page</a></p>
+        <p><a href="lab8/form.php">Form page</a></p>
+        <p><a href="lab8/index.php">Home page</a></p>
+</section>
+<section class="supporting-files">
+    <h3>Supporting files</h3>
+    <p><a href="lab8/css/custom.css">css style sheet</a></p>
+    <p><a href="lab8/wireframe.png">Wireframe</a></p>
+    <p><a href="lab8/mobilewireframe.png">Mobile Wireframe</a></p>
+    <p><a href="lab8/css/layout-desktop.css">Desktop Style Sheet</a></p>
+    <p><a href="lab8/css/layout-tablet.css">Tablet Style Sheet</a></p>
+    <p><a href="lab8/css/layout-phone.css">Phone Style Sheet</a></p>
+    <h3>Includes</h3>
+    <p><a href="lab8/top.php">top.php</a></p>
+    <p><a href="lab8/header.php">header.php</a></p>
+    <p><a href="lab8/nav.php">nav.php</a></p>
+    <p><a href="lab8/footer.php">footer.php?</a></p>
+    <h3>Database</h3>
+    <p><a href="lab8/database-connect.php">database-connect.php</a></p>
+    <p><a href="lab8/records.png">records.png</a></p>
+    <p><a href="lab8/sgl.php">sql.php</a></p>
+</section>
+<section class="lab-layout">
+    <h2 class="header">Lab 7- Arrays and Includes. </h2>
+    <section class="public-files">
+        <h3>Public Files</h3>
+        <p><a href="lab7/about.php">About page</a></p>
+        <p><a href="lab7/array.php">Array Page</a></p>
+        <p><a href="lab7/detail.php">Detail page</a></p>
+        <p><a href="lab7/form.php">Form page</a></p>
+        <p><a href="lab7/index.php">Home page</a></p>
+</section>
+<section class="supporting-files">
+    <h3>Supporting files</h3>
+    <p><a href="lab7/css/custom.css">css style sheet</a></p>
+    <p><a href="lab7/wireframe.png">Wireframe</a></p>
+    <p><a href="lab7/mobilewireframe.png">Mobile Wireframe</a></p>
+    <p><a href="lab7/css/layout-desktop.css">Desktop Style Sheet</a></p>
+    <p><a href="lab7/css/layout-tablet.css">Tablet Style Sheet</a></p>
+    <p><a href="lab7/css/layout-phone.css">Phone Style Sheet</a></p>
+    <h3>Includes</h3>
+    <p><a href="lab7/top.php">top.php</a></p>
+    <p><a href="lab7/header.php">header.php</a></p>
+    <p><a href="lab7/nav.php">nav.php</a></p>
+    <p><a href="lab7/footer.php">footer.php?</a></p>
+</section>
 
 <section class="lab-layout">
     <h2 class="header">Lab Six- Responsive Design. </h2>
