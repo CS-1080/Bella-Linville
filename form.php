@@ -74,6 +74,14 @@ function verifyAlphaNum($testString) {
     // this in it bob's will become bob's
     return (preg_match("/^([[:alnum:]]|-|\.| |\'|&|;|#)+$/", $testString));
 }
+$firstName = $lastName = $email = $concerns = $consideration = '';
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $firstName = $_POST['txtfirstname'];
+    $lastName = $_POST['txtlastname'];
+    $email = $_POST['txtemail'];
+    $concerns = isset($_POST['concern']) ? $_POST['concern'] : [];
+    $consideration = isset($_POST['consider']) ? $_POST['consider'] : '';
+}
 $firstName = filter_input(INPUT_POST, 'txtfirstname', FILTER_SANITIZE_STRING);
 if (empty($firstName)) {
     echo "<!-- First Name is required. -->";
