@@ -67,6 +67,39 @@ echo "<p>Sanitized Concerns: " . implode(', ', $concerns) . "</p>";
 echo "<p>Sanitized Consideration: $consideration</p>";
 ?>
 <?php
+echo "<!-- Starting Validation -->";
+function verifyAlphaNum($testString) {
+    // Check for letters, numbers and dash, period, space and single quote only.
+    // Added & ; and # as a single quote sanitized with html entities will have 
+    // this in it bob's will become bob's
+    return (preg_match("/^([[:alnum:]]|-|\.| |\'|&|;|#)+$/", $testString));
+}
+$firstName = filter_input(INPUT_POST, 'txtfirstname', FILTER_SANITIZE_STRING);
+if (empty($firstName)) {
+    echo "<!-- First Name is required. -->";
+} elseif (!verifyAlphaNum($firstName)) {
+    echo "<!-- Invalid characters in First Name. -->";
+}
+$lastName = filter_input(INPUT_POST, 'txtlastname', FILTER_SANITIZE_STRING);
+if (empty($lastName)) {
+    echo "<!-- Last Name is required. -->";
+} elseif (!verifyAlphaNum($lastName)) {
+    echo "<!-- Invalid characters in Last Name. -->";
+}
+$email = filter_input(INPUT_POST, 'txtemail', FILTER_VALIDATE_EMAIL);
+if (empty($email)) {
+    echo "<!-- Valid email address is required. -->";
+}
+$concerns = filter_input(INPUT_POST, 'concern', FILTER_DEFAULT, FILTER_REQUIRE_ARRAY);
+if (empty($concerns)) {
+    echo "<!-- At least one concern must be selected. -->";
+}
+$consideration = filter_input(INPUT_POST, 'consider', FILTER_SANITIZE_STRING);
+if (empty($consideration)) {
+    echo "<!-- Consideration selection is required. -->";
+}
+?>
+<?php
 include 'footer.php';
 ?>
 </main>
