@@ -43,10 +43,11 @@ foreach($records as $record){
     fldInvest TINYINT(1) DEFAULT 0,
     fldAesthetic TINYINT (1) DEFAULT 0,
     fldInfo TINYINT (1) DEFAULT 0,
-    fldConcern VARCHAR(15) DEFAULT 0,
-
+    fldConcern VARCHAR(15) DEFAULT 0,)
     
-  )
+    INSERT INTO tblAltLawnSurvey
+    (fldFirstName, fldLastName, fldEMail, fldInvest, fldAesthetic, fldInfo, fldConcern)
+    VALUES (?, ?, ?, ?, ?, ?, ?)
         </main>
         <?php
         include 'footer.php';

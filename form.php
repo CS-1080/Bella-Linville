@@ -108,6 +108,21 @@ if (empty($consideration)) {
 }
 ?>
 <?php
+$sql = '  INSERT INTO tblAltLawnSurvey
+(fldFirstName, fldLastName, fldEMail, fldInvest, fldAesthetic, fldInfo, fldConcern)
+VALUES (?, ?, ?, ?, ?, ?, ?)';
+$statement= $pdo->prepare($sql);
+$data = array($firstName, $lastName, $email, $invest, $aesthetic, $info, $concern);
+echo "<!--Start Saving-->";
+if($statement->execute($data)){
+    $message= '<h2>Thank you</h2>';
+    $message= '<p> Your information was successfully saved<p>';
+} else{
+    $message= '<p>ERROR: Record was NOT successfully saved.</p>';
+    $dataIsGood= false;
+}
+?>
+<?php
 include 'footer.php';
 ?>
 </main>
