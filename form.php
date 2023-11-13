@@ -53,6 +53,19 @@ include 'top.php';
 <p>
     <input class="submit" type="submit" value="submit">
 </form>
+<?php 
+echo '<!-- Starting Sanitization -->';
+$firstName = isset($_POST['txtfirstname']) ? htmlspecialchars($_POST['txtfirstname'], ENT_QUOTES, 'UTF-8') : '';
+$lastName = isset($_POST['txtlastname']) ? htmlspecialchars($_POST['txtlastname'], ENT_QUOTES, 'UTF-8') : '';
+$email = isset($_POST['txtemail']) ? filter_var($_POST['txtemail'], FILTER_SANITIZE_EMAIL) : '';
+$concerns = isset($_POST['concern']) ? array_map('htmlspecialchars', $_POST['concern']) : [];
+$consideration = isset($_POST['consider']) ? htmlspecialchars($_POST['consider'], ENT_QUOTES, 'UTF-8') : '';
+echo "<p>Sanitized First Name: $firstName</p>";
+echo "<p>Sanitized Last Name: $lastName</p>";
+echo "<p>Sanitized Email: $email</p>";
+echo "<p>Sanitized Concerns: " . implode(', ', $concerns) . "</p>";
+echo "<p>Sanitized Consideration: $consideration</p>";
+?>
 <?php
 include 'footer.php';
 ?>
