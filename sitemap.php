@@ -17,26 +17,43 @@
         <h1><strong>CS 1080</strong> Fall 2023, Section A</h1>
         <h2><em>Bella Linville-Site Map</em>
         <p><a href="ADMIN/code-viewer.php"> My Admin Page</a></p> 
+        <p><a href="ADMIN/table-viewer.php?getDatabase=">Admin Table Viewer</a></p>
 
            <!--     ###########################################  -->
-    <section class="lab-layout">
-            <h2 class="header>Lab One - Setting up your own site map. </h2>
-            <section class="public-files>
-                <h3>Public Files</h3>
-                <p><a href="sitemap.php">Site map</a></p> 
-                <p><a href="sample.php">Sample Page</a></p>
-    </section>
+           <section class="lab-layout">
+        <h2 class="header">Lab Nine - Saving a forms data.</h2>
+        <section class="public-files">
+            <h3>Public Files</h3>
+            <p><a href="lab9/about.php">About page</a></p>
+            <p><a href="lab9/array.php">Array page</a></p>
+            <p><a href="lab9/detail.php">Detail page</a></p>
+            <p><a href="lab9/form.php">Form page</a></p>
+            <p><a href="lab9/index.php">Home page</a></p>
+        </section>
 
-    <section class="supporting-files">
-        <h3>Supporting files</h3>
-        <p></p>
-    </section>
+        <section class="supporting-files">
+            <h3>Supporting files</h3>
+            <p><a href="lab9/css/custom.css">css style sheet</a></p>
+            <p><a href="lab9/css/layout-desktop.css">desktop style sheet</a></p>
+            <p><a href="lab9/css/layout-tablet.css">tablet style sheet</a></p>
+            <p><a href="lab9/css/layout-phone.css">phone style sheet</a></p>
+            <p><a href="lab9/css/wireframe.png">Wireframe</a></p>
+            <h3>Includes</h3>
+            <p><a href="lab9/top.php">top.php</a></p>
+            <p><a href="lab9/header.php">header.php</a></p>
+            <p><a href="lab9/nav.php">nav.php</a></p>
+            <p><a href="lab9/footer.php">footer.php</a></p>
+            <h3>Database</h3>
+            <p><a href="lab9/database-connect.php">database-connect.php</a></p>
+            <p><a href="lab9/records.png">records.png</a></p>
+            <p><a href="lab9/sql.php">sql.php</a></p>
+        </section>
 
-    <section class="grader notes">
-    <h3>Notes to grader</h3>
-    <p></p>
+        <section class="grader-notes">
+            <h3>Notes to grader</h3>
+            <p></p>
+        </section>
     </section>
-</section>
  <!--     ###########################################  -->
 </body>
 <section class="lab-layout">
@@ -158,6 +175,24 @@
     <h3>Notes to grader</h3>
     <p></p>
 </section>
+</section>
+<section class="lab-layout">
+            <h2 class="header>Lab One - Setting up your own site map. </h2>
+            <section class="public-files>
+                <h3>Public Files</h3>
+                <p><a href="sitemap.php">Site map</a></p> 
+                <p><a href="sample.php">Sample Page</a></p>
+    </section>
+
+    <section class="supporting-files">
+        <h3>Supporting files</h3>
+        <p></p>
+    </section>
+
+    <section class="grader notes">
+    <h3>Notes to grader</h3>
+    <p></p>
+    </section>
 </section>
 <footer>
     <p.<a href="/sitemap.php">Sitemap</a></p>
