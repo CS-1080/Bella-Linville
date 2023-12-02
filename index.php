@@ -23,29 +23,29 @@ include 'top.php';
     <h2>Statistics on the Impact of Grass Lawns</h2>
     <p class="paragraph">The metrics of this data are reffering to a standard sized lawn, which is roughly 500 square feet!</p>
     <table class="table">
-        <caption>Negative Effects of Grass Lawns</caption>
+        <caption>Big Names in Sustainable Lawn Care and Permaculture</caption>
         <tr>
-            <th>Effects</th>
-            <th>Data</th>
-            <th>Unit of Measurement</th>
+            <th>Pioneers of Permaculture</th>
+            <th>Publishments</th>
+            <th>Impact</th>
 </tr>
+<?php
+$sql = 'SELECT fldPioneers, fldPublishments, fldImpacts from tblBigNames';
+$statement = $pdo->prepare($sql);
+$statement->execute();
+
+$records = $statement->fetchAll();
+
+foreach($records as $record){
+    print '<tr>';
+    print '<td>' . $record['fldPioneers'] . '</td>';
+    print '<td>' . $record['fldPublishments'] . '</td>';
+    print '<td>' . $record['fldImpacts'] . '</td>';
+    print '</tr>' . PHP_EOL;
+    }
+    ?>
 <tr>
-    <td>Water Wasted</td>
-    <td>67,500</td>
-    <td>Gallons</td>
-</tr>
-<tr>
-    <td>Chemicals Leeched to Surface/Groundwater</td>
-    <td>40-60%</td>
-    <td>of Total Chemicals Used</td>
-</tr>
-<tr>
-    <td>Native Ecosystems Displaced Daily</td>
-    <td>385,000</td>
-    <td>Acres</td>
-</tr>
-<tr>
-    <td colspan="3"><a class="link" href="https://megagrass.com/pages/water-waste#">Sources</a></td>
+    <td colspan="3"><a class="link" href="https://thecarrotrevolution.com/history-of-permaculture/">Sources</a></td>
 </tr>
 </table>
 </section>
