@@ -21,6 +21,34 @@
 
            <!--     ###########################################  -->
            <section class="lab-layout">
+        <h2 class="header">Final Project</h2>
+        <section class="public-files">
+            <h3>Public Files</h3>
+            <p><a href="final/about.php">About page</a></p>
+            <p><a href="final/array.php">Array page</a></p>
+            <p><a href="final/detail.php">Detail page</a></p>
+            <p><a href="final/form.php">Form page</a></p>
+            <p><a href="final/index.php">Home page</a></p>
+        </section>
+
+        <section class="supporting-files">
+            <h3>Supporting files</h3>
+            <p><a href="final/css/custom.css">css style sheet</a></p>
+            <p><a href="final/css/layout-desktop.css">desktop style sheet</a></p>
+            <p><a href="final/css/layout-tablet.css">tablet style sheet</a></p>
+            <p><a href="final/css/layout-phone.css">phone style sheet</a></p>
+            <p><a href="final/css/wireframe.png">Wireframe</a></p>
+            <h3>Includes</h3>
+            <p><a href="final/top.php">top.php</a></p>
+            <p><a href="final/header.php">header.php</a></p>
+            <p><a href="final/nav.php">nav.php</a></p>
+            <p><a href="final/footer.php">footer.php</a></p>
+            <h3>Database</h3>
+            <p><a href="final/database-connect.php">database-connect.php</a></p>
+            <p><a href="final/records.png">records.png</a></p>
+            <p><a href="final/sql.php">sql.php</a></p>
+        </section>
+           <section class="lab-layout">
         <h2 class="header">Lab Nine - Saving a forms data.</h2>
         <section class="public-files">
             <h3>Public Files</h3>
