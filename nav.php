@@ -9,17 +9,17 @@
     if ($pathParts['detail.php'] == "detail") {
         print 'activePage';
     }
-    ?>" href="detail.php">Detail</a>
+    ?>" href="detail.php">2020</a>
+
+<a class="<?php
+    if ($pathParts['about.php'] == "about") {
+        print 'activePage';
+    }
+    ?>" href="about.php">2021</a>
 
     <a class="<?php
     if ($pathParts['form.php'] == "form") {
         print 'activePage';
     }
-    ?>" href="form.php">Form</a>
-
-    <a class="<?php
-    if ($pathParts['about.php'] == "about") {
-        print 'activePage';
-    }
-    ?>" href="about.php">About</a>
+    ?>" href="form.php">Contact Form</a>
 </nav>

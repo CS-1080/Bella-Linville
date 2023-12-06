@@ -8,7 +8,7 @@ $pathParts = pathinfo($phpSelf);
     <meta charset="utf-8">
     <title>CS1080 Labs: Bella Linville</title>
     <meta name="author" content= "Bella Linville">
-    <meta name="description" content= "A portfolio of all of my hard work in CS1080, my introduction to coding and the WWW">
+    <meta name="description" content= "A portfolio of Caleb Mucklers photography">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/custom.css?version=<?php print time(); ?>"type="text/css">
     <link rel="advancedstylesheet" href="css/layout-desktop.css?version=<?php print time(); ?>" type="text/css">
@@ -17,8 +17,9 @@ $pathParts = pathinfo($phpSelf);
     <link href="css/layout-phone.css?version=<?php print time (); ?>" media="(max-width: 430px)" rel="stylesheet" type="text/css">
     </head>
     <?php
-    print'<bodyclass="' . $pathParts['filename'] . '">';
+    print'<body class="' . $pathParts['filename'] . '">';
     print'<!--########### Start of Body Element ###########-->';
+    include "database-connect.php";
     include "header.php";
     include "nav.php";
     ?>
