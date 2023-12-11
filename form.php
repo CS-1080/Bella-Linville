@@ -18,7 +18,7 @@ include 'top.php';
 <p>
     <input type="text" name="txtemail" id="email" placeholder="JohnnyAppleseed@gmail.com" required>
     <label for="email">Email:</label>
-<p>Where are you looking to have your photo taken?</p>
+<p>Where are you looking to have your shoot?</p>
 <p>
    <input type="checkbox" name="concern" value="1" id="studio">
    <label for="init">The studio</label>
@@ -127,6 +127,26 @@ echo "<p>Email: $email</p>";
 echo "<p> Location: $concern</p>";
 echo "<p>Consideration: $consideration</p>";
 echo '"</section"' ;
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+    $email = $_POST["txtemail"]; 
+
+    $to = $email; 
+    $subject = "Thank you for your interest in Caleb Muckler's work!";
+    $body = "Dear $firstName,\n\nThank you for your interest in Caleb Muckler and his work! He'll get back to you shortly to discuss details for your shoot.\n\nBest regards,\nCaleb Muckler Team";
+
+    $headers = "From: blinville504@gmail.com"; 
+
+    if (mail($to, $subject, $body, $headers)) {
+        $thank_you_message = "Thank you for your interest! Caleb Muckler's team will get back to you shortly.";
+    } else {
+        $thank_you_message = "Failed to send acknowledgment email. Please try again later.";
+    }
+
+    echo "<p>$thank_you_message</p>";
+}
+
 ?>
 </main>
 <?php
