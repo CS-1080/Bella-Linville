@@ -8,7 +8,7 @@
 }
 #container{
     display: flex;
-    border:thin, black;
+    border:thin rgb(0,0 ,0);
 }
 #container > div{
     padding:5%;
@@ -32,11 +32,4 @@ input[required] {
     border-color:rgb(250,0,0);
     padding: 5px;
 }
-label{
-    position: center;
-}
-input{
-    position: center;
-}
-
 
